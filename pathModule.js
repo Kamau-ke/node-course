@@ -4,4 +4,6 @@ const filePath=path.join('\content', 'text.txt'); //this method is used to creat
 
 const fullPath=path.resolve(__dirname, 'content', 'text.txt')
 
-console.log(fullPath)
+//const fullpath=path.resolve(__dirname, './node-express/02-express-tutorial/navbar-app/index.html');
+
+console.log()
