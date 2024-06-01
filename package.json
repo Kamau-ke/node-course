@@ -1,9 +1,14 @@
 {
+<<<<<<< HEAD
   "name": "express",
+=======
+  "name": "projects",
+>>>>>>> d638dc950057c6107b02bda4d351fe43070bf3cb
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,5 +17,17 @@
   "dependencies": {
     "express": "^4.19.2",
     "morgan": "^1.10.0"
+=======
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+>>>>>>> d638dc950057c6107b02bda4d351fe43070bf3cb
   }
 }
