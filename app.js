@@ -1,4 +1,18 @@
-const { first, last }=require('./names')
-const {greeting}=require('./utils');
+const express=require('express')
+// const { people } = require('./data')
+const app=express()
+const people=require('./routes/people')
+const login=require('./routes/auth')
 
-greeting(first)
+app.use(express.static('./methods-public'))
+app.use(express.urlencoded({extended:false}))
+app.use(express.json())
+app.use('/api/people', people)
+
+app.use('/login', login)
+
+
+
+app.listen(5000, ()=>{
+    console.log('Server running on port 5000')
+})
